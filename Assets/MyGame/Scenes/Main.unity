@@ -1814,6 +1814,9 @@ MonoBehaviour:
   onHealthd:
     m_PersistentCalls:
       m_Calls: []
+  onUpdateCoin:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &503652908
 Transform:
   m_ObjectHideFlags: 0
@@ -5216,7 +5219,7 @@ MonoBehaviour:
   Composition:
     ScreenPosition: {x: 0, y: 0}
     DeadZone:
-      Enabled: 0
+      Enabled: 1
       Size: {x: 0.2, y: 0.2}
     HardLimits:
       Enabled: 0
